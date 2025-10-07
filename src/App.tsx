@@ -91,7 +91,7 @@ export const App = () => {
 
   const submit = () => {
     window.gtag("event", "6490_get_sub", {
-      variant_name: "ghk_6490_3",
+      variant_name: "6490_3",
     });
 
     LS.setItem(LSKeys.ShowThx, true);
